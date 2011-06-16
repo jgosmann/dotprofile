@@ -11,16 +11,16 @@ if [ -f /opt/local/etc/bash_completion ]; then
     . /opt/local/etc/bash_completion
 fi
 
-if [ -f ~/.bashrc/git-prompt.sh ]; then
-    . ~/.bashrc/git-prompt.sh
+if [ -f ~/.bash/git-prompt.sh ]; then
+    . ~/.bash/git-prompt.sh
 fi
 
-if [ -f ~/.bashrc/alias.sh ]; then
-    . ~/.bashrc/alias.sh
+if [ -f ~/.bash/alias.sh ]; then
+    . ~/.bash/alias.sh
 fi
 
-if [ -f ~/.bashrc/private.alias.sh ]; then
-    . ~/.bashrc/private.alias.sh
+if [ -f ~/.bash/private.alias.sh ]; then
+    . ~/.bash/private.alias.sh
 fi
 
 # MacPorts Installer addition on 2009-03-02_at_15:56:49: adding an appropriate MANPATH variable for use with MacPorts.

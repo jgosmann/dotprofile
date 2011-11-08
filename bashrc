@@ -13,6 +13,7 @@ function load() {
     fi
 }
 
+load /etc/bash_completion
 load /opt/local/etc/bash_completion
 load ~/.bash/git-prompt.sh
 load ~/.bash/alias.sh

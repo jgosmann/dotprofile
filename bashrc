@@ -6,6 +6,7 @@ export HISTCONTROL='ignoreboth'
 export PS1='\h:\w> '
 
 export PATH="$PATH:~/bin"
+export PYTHONPATH="$HOME/bin/python/lib/python"
 
 function load() {
     if [ -f "$1" ]; then

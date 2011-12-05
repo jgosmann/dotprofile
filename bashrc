@@ -2,6 +2,7 @@
 
 export CLICOLOR=''
 export EDITOR=vim
+export PAGER='less -is'
 export HISTCONTROL='ignoreboth'
 export PS1='\h:\w> '
 
@@ -28,4 +29,6 @@ case `uname` in
         load ~/.bash/osx.sh
         ;;
 esac
+
+lesskey ~/.bash/lesskey
 
